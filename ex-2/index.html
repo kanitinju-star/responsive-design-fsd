@@ -77,31 +77,31 @@
       </section>
 
       <!-- Dev 3 -->
-      <section class="flex flex-col items-center w-[1439px] h-[850px] mx-auto pr-[120px] pb-[80px] pl-[120px]">
+      <section class="flex flex-col items-center w-full max-w-[1439px] min-h-[850px] mx-auto px-4 sm:px-[40px] md:px-[120px] pb-[80px]">
         <div
-          class="flex flex-col items-center rounded-3xl border border-white pt-[80px] pr-[120px] pb-[80px] pl-[120px] gap-[40px] w-[1199px] h-[666px]">
-          <h1 class="text-[44px] font-bold">Get in Touch</h1>
-          <form class="w-[589px] h-[322px] flex flex-col ">
-            <div class="flex flex-col items-start w-[589px] h-[78]">
+          class="flex flex-col items-center rounded-3xl border border-white pt-10 sm:pt-[40px] md:pt-[80px] px-4 sm:px-[40px] md:px-[120px] pb-10 sm:pb-[40px] md:pb-[80px] gap-[40px] w-full max-w-[1199px] sm:h-auto">
+          <h1 class="text-[32px] sm:text-[40px] md:text-[44px] font-bold text-center">Get in Touch</h1>
+          <form class="w-full max-w-[589px] flex flex-col">
+            <div class="flex flex-col items-start w-full">
               <label for="name">Name</label>
               <input id="name" type="text" placeholder="John Doe"
-                class="flex flex-col mb-[30px] pt-[12px] pr-[12px] pb-[12px] pl-[16px] border border-[#E0E0ED] rounded-[12px] w-[589px] h-[48px]">
+                class="mb-[30px] pt-[12px] pr-[12px] pb-[12px] pl-[16px] border border-[#E0E0ED] rounded-[12px] w-full min-w-0 h-[48px]">
               <label for="email">Email</label>
               <input id="email" type="email" placeholder="john@example.com"
-                class="flex flex-col mb-[30px] pt-[12px] pr-[12px] pb-[12px] pl-[16px] border border-#E0E0ED rounded-[12px] w-[589px] h-[48px]">
-              <div class="h-[130px] w-[589px]">
+                class="mb-[30px] pt-[12px] pr-[12px] pb-[12px] pl-[16px] border border-[#E0E0ED] rounded-[12px] w-full min-w-0 h-[48px]">
+              <div class="h-auto w-full">
                 <label for="message"> Message </label><br>
-                <textarea id="message" placeholder="Your messaage" rows="5"
-                  class="flex flex-col mb-[6px] pt-[12px] pr-[12px] pb-[12px] pl-[16px] border border-[#E0E0ED] rounded-[12px] w-[589px] h-[102px]"></textarea>
+                <textarea id="message" placeholder="Your message" rows="5"
+                  class="mb-[6px] pt-[12px] pr-[12px] pb-[12px] pl-[16px] border border-[#E0E0ED] rounded-[12px] w-full min-w-0 h-[102px]"></textarea>
               </div>
             </div>
-            <button type="email flex items-end"
-              class="flex flex-row justify-center gap-[6px] w-[589px] h-[56px] rounded-[16px] px-[36px] py-[16px] bg-[#1A1A2C] text-white mt-[30px]">Submit</button>
+            <button type="submit"
+              class="flex flex-row justify-center gap-[6px] w-full h-[56px] rounded-[16px] px-[36px] py-[16px] bg-[#1A1A2C] text-white mt-[30px]">Submit</button>
           </form>
         </div>
-        <footer class="w-[1199px] h-[24px] flex flex-row justify-between mt-[100px]">
-          <span>Acme productivity app ©2024</span>
-          <div class="font-bold flex flex-row gap-[37px]">
+        <footer class="w-full max-w-[1199px] h-auto flex flex-col sm:flex-row justify-between items-center gap-4 mt-[40px] sm:mt-[100px]">
+          <span class="text-center">Acme productivity app ©2024</span>
+          <div class="font-bold flex flex-row gap-[24px] sm:gap-[37px]">
             <span>FAQ</span>
             <span>Terms</span>
             <span>AI Policy</span>
@@ -110,6 +110,6 @@
         </footer>
       </section>
   </main>
-  <footer></footer>
+
 
 </html>
