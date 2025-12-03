@@ -22,12 +22,10 @@ h1 {
 }
 
 .line {
-  background: linear-gradient(
-    to bottom,
-    transparent 50%,
-    #ff8345,
-    hsla(20, 100%, 64%, 1)
-  );
+  background: linear-gradient(to bottom,
+      transparent 50%,
+      #ff8345,
+      hsla(20, 100%, 64%, 1));
 }
 
 h2 {
