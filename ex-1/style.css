@@ -19,6 +19,7 @@ h1 {
   font-size: 2.5rem;
   font-weight: 700px;
   color: #183b56;
+  text-align: center;
 }
 
 .line {
@@ -64,7 +65,6 @@ h3 {
 
 .categories {
   max-width: 1900px;
-  min-width: 450px;
   width: 100vw;
 }
 
